@@ -1,0 +1,125 @@
+*{
+    margin: 0;padding: 0;
+}
+
+.container {
+    width: 80vw;
+    height: 100%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    border: 3px solid rgb(228, 170, 10);
+    padding: 20px;
+}
+
+.header img{
+    width: 80vw;
+    height: 30vh;
+}
+
+.patient_{
+    padding: 25px;
+}
+
+.sub-container{
+    width: 80vw;
+    height: 20vh;
+    /* background-color: antiquewhite; */
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.sub-container {
+    /* margin-top: 2%; */
+    display: flex;
+    flex-direction: column;
+   
+}
+
+.container_1{
+    /* background-color: aqua; */
+    display: flex;
+    font-size: 25px;
+    justify-content: space-evenly;
+    margin-top: 2%;
+}
+.container_2{
+    /* background-color: aquamarine; */
+    display: flex;
+    font-size: 25px;
+    justify-content: space-evenly;
+    margin-top: 3%;
+    margin-right: 3%;
+    
+}
+
+.age{
+    margin-right: 5%;
+    width:fit-content;
+}
+
+.gender{
+    margin-right: 5%;
+    /* width: fit-content; */
+}
+
+.location{
+    margin-right: 3%;
+    width: fit-content;
+}
+
+.sub-container label{
+    font-size: 25px;
+}
+
+
+.mid-container{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 2%;
+    /* background-color: rgb(247, 167, 18); */
+    height: 50vh;
+    margin-left: 10%;
+}
+
+.mid_container_1{
+    /* width: 50%; */
+    /* background-color: rgb(187, 112, 14); */
+    /* text-align: center; */
+}
+
+.mid_container_2{
+    width: 50%;
+    text-align: center;
+}
+
+
+
+.mid_container_1 p{
+    font-size: 20px;
+    padding-bottom: 20px;
+    text-align: left;
+}
+
+.main-heading{
+    margin-bottom: 30px;
+    text-decoration: underline;
+    width: fit-content;
+}
+
+.mid_container_2 li{
+    list-style-type: none;
+    font-size: 20px;
+    padding-bottom: 20px;
+    text-align: left;
+}
+
+.empty{
+    height: 50vh;
+}
+
+.dis{
+    margin-top: 2%;
+    padding: 25px;
+}
